@@ -7,7 +7,7 @@ import org.springframework.util.StringUtils;
 public class test {
 
 	public static void main(String[] args) {
-		String a = "123";
+		String a = "123456";
 		System.out.println(StringUtils.isEmpty(a));
 		System.out.println(StringUtils.hasText(a));
 		System.out.println(StringUtils.hasLength(a));
